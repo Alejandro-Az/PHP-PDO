@@ -1,0 +1,17 @@
+th, td {
+    font-family: 'Cinzel', serif;    
+    color: #E0AA3E;
+}
+
+button {
+    background-color: black;
+    color: #E0AA3E;
+    transition: 0.2s all ease-in-out;
+    padding: 10px;
+    width: 80px;        
+}
+
+button:hover {
+    background-color: grey;    
+    color: yellow;
+}

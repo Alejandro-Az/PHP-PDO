@@ -1,0 +1,41 @@
+div.busqueda {
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: gold;
+    padding: 20px;
+    display: flex;
+}
+div.busqueda i{    
+    padding: 4px 6px 4px 8px;
+    background-color: rgb(75, 72, 72);
+    border-radius: 12px 0 0 12px;        
+}
+
+div.busqueda input[type=text] {
+    width: 80vw;
+    background-color: black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid gold;
+    color: goldenrod;
+    text-align: center;
+}
+
+div.busqueda input[type=text]:focus {
+    border: 0.5px solid gold;
+    
+}
+
+div.busqueda input.buscar {
+    background-color: rgb(75, 72, 72);
+    color: gold;
+    padding: 4px 8px 6px 8px;
+    border-radius: 0 12px 12px 0;
+}
+
+div.busqueda input.buscar:hover {
+    background-color: goldenrod;
+    color: white;    
+}
